@@ -8,9 +8,9 @@
 - Seam carving is an algorithm used to resize images in a more natural and efficient way compared to previous algorithms by removing less important pixels along the seam and preserving important pixels when shrinking the image.
 - Deleting less important pixels at random positions would distort the image, making it unnatural compared to the original. To address this issue when shrinking images horizontally, the Seam Carving algorithm deletes columns along the seam, which is a path from top to bottom connected by pixels, and these pixels are neighbors of each other. When reducing the height of the image, it will find and delete seams horizontally.
 
-**Input:** The image to be resized, RGB color image, and the number of seams to be removed.
+**Input:** The image to be resized, `RGB` color image, and the number of seams to be removed.
 
-**Output:** The RGB image resized horizontally.
+**Output:** The RGB image was resized horizontally.
 
 **Speed:** Speed improvement is needed to process images in real-time
 
